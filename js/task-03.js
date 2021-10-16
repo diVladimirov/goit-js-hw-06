@@ -20,6 +20,6 @@ const gallery = images
     (obj) => `<li><img src="${obj.url}" alt="${obj.alt}" width="300px"></li>`
   )
   .join("");
-console.log(gallery);
+
 listEl.insertAdjacentHTML("beforeend", gallery);
 listEl.classList.add("gallery-flex");
